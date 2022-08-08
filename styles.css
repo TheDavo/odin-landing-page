@@ -98,7 +98,7 @@ section.info {
   width: 200px;
   border: 3px solid orange;
   flex-basis: 1;
-  border-radius: 15%;
+  border-radius: 30px;
 }
 
 /* Testimonial Styling */
@@ -115,4 +115,28 @@ p.testimonial {
 p.testimonial-quoter {
   font-weight: bold;
   text-align: end;
+}
+
+/* Catl-To-Action Styling */
+
+.cta-container {
+  background-color: darkorange;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cta-text p {
+  padding: 0.25rem 0;
+  margin: 0;
+}
+
+.cta-signup {
+  text-decoration: none;
+  color: black;
+  border-radius: 3px;
+  border: 3px solid black;
+  padding: 1rem 3rem;
 }
