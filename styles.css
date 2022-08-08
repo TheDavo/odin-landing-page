@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 0rem 12rem;
+  margin: 0rem 30rem;
   font-family: sans-serif;
 }
 
@@ -83,6 +83,7 @@ section.info {
 .info-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .info-item {
@@ -98,4 +99,20 @@ section.info {
   border: 3px solid orange;
   flex-basis: 1;
   border-radius: 15%;
+}
+
+/* Testimonial Styling */
+
+.testimonial-container {
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
+
+p.testimonial {
+  font-style: italic;
+}
+
+p.testimonial-quoter {
+  font-weight: bold;
+  text-align: end;
 }
