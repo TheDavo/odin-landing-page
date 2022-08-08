@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 0rem 8.6rem;
+  margin: 0rem 12rem;
   font-family: sans-serif;
 }
 
@@ -44,6 +44,29 @@ nav ul li {
   justify-content: center;
 }
 
+.hero-text {
+  padding-right: 4rem;
+}
+
 .hero-text h2 {
   font-weight: extra-bold;
+}
+
+.hero-container img {
+  width: 800px;
+  height: auto;
+  flex-basis: 1;
+  padding-left: 4rem;
+}
+
+.hero-container .hero-text {
+  flex-basis: 1;
+}
+
+.sign-up {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: orange;
+  border-radius: 3px;
+  color: black;
 }
