@@ -3,11 +3,17 @@ html {
 }
 
 body {
-  margin: 0rem 30rem;
+  /* Reset the default margin and padding */
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Text Utility Classes */
+
+.font1p2 {
+  font-size: 1.2rem;
+}
 
 .font1p8 {
   font-size: 1.8rem;
@@ -21,8 +27,23 @@ body {
   font-size: 4.8rem;
 }
 
+/* Container Utility Classes */
+
+.cont-wide {
+  margin: 0 30rem;
+}
+
+.cont-narrow {
+  margin: 0 45rem;
+}
+
 /* Header Styling */
 header {
+  background-color: orange;
+  padding-bottom: 2rem;
+}
+.header-container {
+  padding-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,9 +56,15 @@ nav ul {
 nav ul li {
   display: inline;
   margin: 0px 2.4rem;
+  cursor: pointer;
 }
 
 /* Hero Styling */
+
+section.hero {
+  background-color: orange;
+  padding-bottom: 2rem;
+}
 
 .hero-container {
   display: flex;
@@ -56,7 +83,9 @@ nav ul li {
   width: 800px;
   height: auto;
   flex-basis: 1;
-  padding-left: 4rem;
+  margin-left: 4rem;
+  border-radius: 30px;
+  transform: skew(-3deg);
 }
 
 .hero-container .hero-text {
@@ -64,16 +93,20 @@ nav ul li {
 }
 
 .sign-up {
+  display: inline-block;
   text-decoration: none;
   padding: 1rem;
-  background-color: orange;
+  background-color: white;
   border-radius: 3px;
   color: black;
+  margin: 1rem;
 }
 
 /* Information Blocks Styling */
 
 section.info {
+  background-color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,21 +136,30 @@ section.info {
 
 /* Testimonial Styling */
 
-.testimonial-container {
-  margin-left: 30rem;
-  margin-right: 30rem;
+section.testimonial {
+  padding-top: 2rem;
+  background-color: #e5e7eb;
 }
 
 p.testimonial {
   font-style: italic;
+  margin: 0;
+  padding: 1rem;
 }
 
 p.testimonial-quoter {
   font-weight: bold;
   text-align: end;
+  margin: 0;
+  padding: 1rem;
 }
 
 /* Catl-To-Action Styling */
+
+section.cta {
+  background-color: black;
+  padding: 3rem 0;
+}
 
 .cta-container {
   background-color: darkorange;
@@ -139,4 +181,17 @@ p.testimonial-quoter {
   border-radius: 3px;
   border: 3px solid black;
   padding: 1rem 3rem;
+}
+
+/* Footer Styling */
+
+footer {
+  margin: 0 0;
+  background-color: darkorange;
+  padding: 2rem 0;
+}
+
+footer p {
+  text-align: center;
+  color: black;
 }
