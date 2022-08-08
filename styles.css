@@ -70,3 +70,32 @@ nav ul li {
   border-radius: 3px;
   color: black;
 }
+
+/* Information Blocks Styling */
+
+section.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.info-image {
+  height: 200px;
+  width: 200px;
+  border: 3px solid orange;
+  flex-basis: 1;
+  border-radius: 15%;
+}
